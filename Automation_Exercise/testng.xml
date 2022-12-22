@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="automation_exercise">
+    <test name="automation_exercise">
+        <classes>
+            <class name="tests.RegistrationTest"/>
+            <class name="tests.LoginAndLogoutTest"/>
+            <class name="tests.ContactUsTest"/>
+            <class name="tests.SearchTest"/>
+            <class name="tests.AddToCartTest"/>
+        </classes>
+    </test>
+</suite>
