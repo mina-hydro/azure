@@ -27,25 +27,26 @@
           <include name="setup"/>
         </methods>
       </class> <!-- tests.ContactUsTest -->
-      <class name="tests.RegistrationTest">
-        <methods>
-          <include name="testSuccessfulSignUp"/>
-          <include name="navigateToSignUpPage"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- tests.RegistrationTest -->
       <class name="tests.LoginAndLogoutTest">
         <methods>
           <include name="testSuccessfulLoginAndThenDeletingTheAccount"/>
-          <include name="testSuccessfulLoginAndLogoutFunctionality"/>
           <include name="testUnsuccessfulLogin"/>
+          <include name="testSuccessfulLoginAndLogoutFunctionality"/>
           <include name="navigateToLoginPage"/>
           <include name="tearDown"/>
           <include name="setup"/>
           <include name="haveAPreRegisteredUser"/>
         </methods>
       </class> <!-- tests.LoginAndLogoutTest -->
+      <class name="tests.RegistrationTest">
+        <methods>
+          <include name="testSuccessfulSignUp"/>
+          <include name="navigateToSignUpPage"/>
+          <include name="testRegistration"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.RegistrationTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
