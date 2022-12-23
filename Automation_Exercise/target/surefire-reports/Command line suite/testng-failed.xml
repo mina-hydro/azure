@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="tests.SearchTest">
+        <methods>
+          <include name="testSearchFunctionality"/>
+          <include name="navigateToProductsPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SearchTest -->
+      <class name="tests.AddToCartTest">
+        <methods>
+          <include name="testAddToCartFunctionality"/>
+          <include name="navigateToProductsPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.AddToCartTest -->
+      <class name="tests.ContactUsTest">
+        <methods>
+          <include name="testContactUsFunctionality"/>
+          <include name="navigateToProductsPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.ContactUsTest -->
+      <class name="tests.RegistrationTest">
+        <methods>
+          <include name="testSuccessfulSignUp"/>
+          <include name="navigateToSignUpPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.LoginAndLogoutTest">
+        <methods>
+          <include name="testSuccessfulLoginAndThenDeletingTheAccount"/>
+          <include name="testSuccessfulLoginAndLogoutFunctionality"/>
+          <include name="testUnsuccessfulLogin"/>
+          <include name="navigateToLoginPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="haveAPreRegisteredUser"/>
+        </methods>
+      </class> <!-- tests.LoginAndLogoutTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
