@@ -1,0 +1,9 @@
+pages\ProductsPage.class
+utils\ElementsActions.class
+pages\Signup_LoginPage.class
+pages\AccountCreated_ModifiedPage.class
+pages\CartPage.class
+pages\HomePage.class
+pages\SignUpPage.class
+pages\HomePage$SignedInUserHomePage.class
+pages\ContactUsPage.class

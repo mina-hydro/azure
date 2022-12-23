@@ -1,0 +1,6 @@
+tests\SearchTest.class
+tests\AddToCartTest.class
+tests\BaseTest.class
+tests\ContactUsTest.class
+tests\RegistrationTest.class
+tests\LoginAndLogoutTest.class
